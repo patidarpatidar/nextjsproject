@@ -36,3 +36,24 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+//static and daynamic routing
+// get product passing id [pid].js
+// create database for using json-server create product and signup api
+//getStaticProps  -- we show the static data for publically 
+//getServerSideProps  -- we show the data acording spacific user
+
+
+//getStaticProps() for server side using getStaticPath()
+// image uploading using 'cloudinary.com' it is given a storage for 1gb
+//password hash using 'bcrypt' and how to compare password hasPassword using bcrypt
+
+//create jwt token using 'jsonwebtoken' jwt.sign({userId:user.id},SECRET_KEY)
+// set token in cookie using 'js-cookie'
+
+// role based authentication 
+
+get token from cookie in getServerSideProps and getStaticProps  using 'nookies'
+
+//d7NeRNcUUF6duuLU
